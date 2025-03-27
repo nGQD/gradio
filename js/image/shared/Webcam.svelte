@@ -317,7 +317,7 @@
 			>
 				{#if mode === "video" || streaming}
 					{#if streaming && stream_state === "waiting"}
-						<div class="icon-with-text" style="width:var(--size-24);">
+						<div class="icon-with-text" style="width:var(--size-60);">
 							<div class="icon color-primary" title="spinner">
 								<Spinner />
 							</div>
